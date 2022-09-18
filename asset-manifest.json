@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Interview-test1/static/css/main.04e0e325.css",
+    "main.css": "/Interview-test1/static/css/main.1be53b60.css",
     "main.js": "/Interview-test1/static/js/main.6766adb9.js",
     "static/js/906.6b80ec58.chunk.js": "/Interview-test1/static/js/906.6b80ec58.chunk.js",
     "static/js/787.af04e08f.chunk.js": "/Interview-test1/static/js/787.af04e08f.chunk.js",
@@ -34,13 +34,13 @@
     "static/media/up-arrow.svg": "/Interview-test1/static/media/up-arrow.28552d5b07a193446f5792f70db1fab9.svg",
     "static/media/down-arrow.svg": "/Interview-test1/static/media/down-arrow.bceca11ba23953aa55105692880664b4.svg",
     "static/media/size.svg": "/Interview-test1/static/media/size.487d838c1feb7932ac65f8dfab2044e6.svg",
-    "main.04e0e325.css.map": "/Interview-test1/static/css/main.04e0e325.css.map",
+    "main.1be53b60.css.map": "/Interview-test1/static/css/main.1be53b60.css.map",
     "main.6766adb9.js.map": "/Interview-test1/static/js/main.6766adb9.js.map",
     "906.6b80ec58.chunk.js.map": "/Interview-test1/static/js/906.6b80ec58.chunk.js.map",
     "787.af04e08f.chunk.js.map": "/Interview-test1/static/js/787.af04e08f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04e0e325.css",
+    "static/css/main.1be53b60.css",
     "static/js/main.6766adb9.js"
   ]
 }
