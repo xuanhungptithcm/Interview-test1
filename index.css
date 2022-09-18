@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'SVN-Product-Sans-Regular';
+  src: url('fonts/ProductSansRegular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'SVN-Product-Sans-Bold';
+  src: url('fonts/ProductSansBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SVN-Product-Sans-Bold-Italic';
+  src: url('fonts/ProductSansBoldItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SVN-Product-Sans-Italic';
+  src: url('fonts/ProductSansItalic.otf') format('opentype');
+}
