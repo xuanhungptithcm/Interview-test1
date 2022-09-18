@@ -1,0 +1,17 @@
+.footer {
+  height: 90px;
+  background-color: var(--bg-white);
+  display: flex;
+  align-items: center;
+}
+
+.menu-footer {
+  ul li a {
+    font-family: 'SVN-Product-Sans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--content-primary);
+  }
+}

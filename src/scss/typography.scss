@@ -1,0 +1,68 @@
+.heading-1-bold {
+  font-family: 'SVN-Product-Sans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: var(--content-primary);
+}
+
+.heading-4 {
+  font-family: 'SVN-Product-Sans-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--content-primary);
+}
+.heading-4-bold {
+  font-family: 'SVN-Product-Sans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--content-primary);
+}
+.heading-4-Roboto {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--content-primary);
+  &-Medium{
+    font-weight: 500;
+  }
+}
+.heading-5 {
+  font-family: 'SVN-Product-Sans-Regular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--content-primary);
+}
+.heading-5-Roboto {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--content-primary);
+}
+.heading-5-bold {
+  font-family: 'SVN-Product-Sans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--content-primary);
+}
+.heading-6-bold {
+  font-family: 'SVN-Product-Sans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--content-primary);
+}

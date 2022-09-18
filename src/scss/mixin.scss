@@ -1,0 +1,19 @@
+@mixin multiLineEllipsis($lines-to-show: 2) {
+  display: block; // Fallback for non-webkit
+  display: -webkit-box;
+  -webkit-line-clamp: $lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@mixin scrollable($gap-x: 12px) {
+  display: flex;
+  overflow-x: auto;
+  column-gap: $gap-x;
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  scroll-snap-type: inline;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}

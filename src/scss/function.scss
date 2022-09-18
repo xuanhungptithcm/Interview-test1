@@ -1,0 +1,15 @@
+@function betterClamp($minSize, $maxSize, $minWidth: 360, $maxWidth: 1230) {
+    // convert to rem
+    $minSize: calc($minSize / 16);
+    $maxSize: calc($maxSize / 16);
+    $maxWidth: calc($maxWidth / 16);
+    $minWidth: calc($minWidth / 16);
+    // do calculations
+    $slope: calc($maxSize - $minSize) / calc($maxWidth - $minWidth);
+    $yAxisIntersection: -$minWidth * $slope + $minSize;
+    $preferredValue: calc(#{$yAxisIntersection}rem + #{$slope * 100}vw);
+    // output as rem
+    $minSize: #{$minSize}rem;
+    $maxSize: #{$maxSize}rem;
+    @return clamp($minSize, $preferredValue, $maxSize);
+}
