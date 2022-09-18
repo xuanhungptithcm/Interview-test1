@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // assets
-
 import { ReactComponent as FacebookIcon } from 'assets/footer/Facebook.svg';
 import { ReactComponent as InstagramIcon } from 'assets/footer/instagram.svg';
 import { ReactComponent as YoutubeIcon } from 'assets/footer/youtube.svg';

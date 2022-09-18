@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import useScrollHorizontal from 'hooks/useScrollHorizontal';
 import { useRef } from 'react';
-
+import products from 'mocks/mockProduct';
+import ToteHotDeal from './ToteHotDeal';
 //assets
 import Banner from 'assets/home/banner.png';
 import BannerTote from 'assets/home/tote-banner.png';
@@ -22,8 +23,7 @@ import { ReactComponent as ZipperIcon } from 'assets/home/svg/zipper.svg';
 import { ReactComponent as DownArrow } from 'assets/svg/down-arrow.svg';
 import { ReactComponent as UpArrow } from 'assets/svg/up-arrow.svg';
 import { ReactComponent as LogoInstagram } from 'assets/svg/logo-instagram.svg';
-import products from 'mocks/mockProduct';
-import ToteHotDeal from './ToteHotDeal';
+
 const Home = () => {
   const listInstagramRef = useRef();
 
