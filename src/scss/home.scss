@@ -74,7 +74,7 @@ h3.heading-1-bold {
 }
 .list-product {
   height: 490px;
-  padding: 12px 4px 4px 4px;
+  padding: 12px 0 0 0;
   @include scrollable(30px);
   scroll-snap-type: inline mandatory;
   scroll-padding-inline: 30px;
