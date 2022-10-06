@@ -1,4 +1,4 @@
-@function betterClamp($minSize, $maxSize, $minWidth: 360, $maxWidth: 1230) {
+@function betterClamp2($minSize, $maxSize, $minWidth: 360, $maxWidth: 1230) {
     // convert to rem
     $minSize: calc($minSize / 16);
     $maxSize: calc($maxSize / 16);
@@ -13,3 +13,28 @@
     $maxSize: #{$maxSize}rem;
     @return clamp($minSize, $preferredValue, $maxSize);
 }
+
+
+
+     
+@use "sass:math";
+ 
+@function betterClamp($minSize, $maxSize, $minWidth: 360, $maxWidth: 1230) {
+    // convert to rem
+    $minSize: math.div($minSize, 16);
+    $maxSize: math.div($maxSize, 16);
+    $maxWidth: math.div($maxWidth, 16);
+    $minWidth: math.div($minWidth, 16);
+    // do calculations
+    $slope: math.div(($maxSize - $minSize), ($maxWidth - $minWidth));
+    $yAxisIntersection: -$minWidth * $slope + $minSize;
+    // output as rem
+    $minSize: $minSize * 1rem;
+    $maxSize: $maxSize * 1rem;
+    @return clamp(
+        #{$minSize},
+        #{$yAxisIntersection * 1rem} + #{$slope * 100vw},
+        #{$maxSize}
+    );
+}
+ 
